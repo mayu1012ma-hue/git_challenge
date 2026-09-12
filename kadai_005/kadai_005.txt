@@ -1,0 +1,38 @@
+PS C:\Users\PC\OneDrive\デスクトップ\test> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\PC\OneDrive\デスクトップ\test
+
+
+Mode                 LastWriteTime         Length Name                                                                                                       
+----                 -------------         ------ ----                                                                                                       
+d-----        2026/09/11      3:57                git_challenge                                                                                              
+
+
+PS C:\Users\PC\OneDrive\デスクトップ\test> cd git_challenge
+PS C:\Users\PC\OneDrive\デスクトップ\test\git_challenge> git init
+Initialized empty Git repository in C:/Users/PC/OneDrive/デスクトップ/test/git_challenge/.git/
+PS C:\Users\PC\OneDrive\デスクトップ\test\git_challenge> echo "Hello, world!" >> hello_world.txt                
+PS C:\Users\PC\OneDrive\デスクトップ\test\git_challenge> git add hello_world.txt 
+PS C:\Users\PC\OneDrive\デスクトップ\test\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) b6518c9] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\PC\OneDrive\デスクトップ\test\git_challenge> echo "こんにちは、世界！" >> hello_world.txt
+PS C:\Users\PC\OneDrive\デスクトップ\test\git_challenge> git add hello_world.txt
+PS C:\Users\PC\OneDrive\デスクトップ\test\git_challenge> git commit -m "日本語訳を追記"       
+[main 7385292] 日本語訳を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\PC\OneDrive\デスクトップ\test\git_challenge> git log --oneline
+7385292 (HEAD -> main) 日本語訳を追記
+b6518c9 hello_world.txtを追加
+PS C:\Users\PC\OneDrive\デスクトップ\test\git_challenge> mkdir kadai_005
+
+
+    ディレクトリ: C:\Users\PC\OneDrive\デスクトップ\test\git_challenge
+
+
+Mode                 LastWriteTime         Length Name                                                                                                       
+----                 -------------         ------ ----                                                                                                       
+d-----        2026/09/11      4:01                kadai_005                                                                                                  
+
